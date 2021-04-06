@@ -23,6 +23,6 @@ class Job:
         return self.__location
 
     @property
-    def job_summary(self):
+    def summary(self):
         return self.__job_summary
 

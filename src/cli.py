@@ -1,5 +1,7 @@
 import re
 
+from jobs import Jobs
+
 
 class CLI:
     @classmethod
@@ -120,4 +122,4 @@ class CLI:
 
     @classmethod
     def run(cls):
-        pass
+        Jobs.list_jobs()
